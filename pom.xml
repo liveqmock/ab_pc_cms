@@ -40,7 +40,6 @@
 <!-- 		jodconverter-core-3.0-beta-4 -->
 		<json-lib.version>2.1</json-lib.version>
 <!-- 		jta-1.1 -->
-		<spring.version>4.1.0.RELEASE</spring.version>
         <codegenerate.version>3.4.6</codegenerate.version>
         <minidao.version>1.4.0</minidao.version>
 		<!-- 主要依赖库的版本定义 -->
@@ -96,14 +95,6 @@
 		<postgresql.version>9.1-903.jdbc4</postgresql.version>
 		<!-- 测试依赖包 -->
 		<junit.version>4.7</junit.version>
-        <!-- todo 没有用到 <hamcrest.version>1.3</hamcrest.version>-->
-		<!-- todo 没有用到 <mockito.version>1.9.5</mockito.version>-->
-		<!-- todo 没有用到 <powermock.version>1.5</powermock.version>-->
-		<!-- todo 没有用到 <selenium.version>2.28.0</selenium.version>-->
-		<!-- todo 没有用到 <jetty.version>7.6.8.v20121106</jetty.version>-->
-		<!-- Plugin的属性定义 -->
-		<!-- todo 没有用到 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-        <!-- todo 没有用到 <jdk.version>1.6</jdk.version>-->
 		<CKFinder.version>2.4</CKFinder.version>
         <!-- java生成缩略图 -->
         <thumbnailator.version>0.4.6</thumbnailator.version>
@@ -317,7 +308,7 @@
 		  <dependency>  
 	          <groupId>memcachedclient</groupId>  
 	          <artifactId>memcachedclient</artifactId>  
-	          <version>1.3.2</version>  
+	          <version>2.0.1</version>  
 	     </dependency>  
 
 		<!--工作流依赖包 -->
@@ -958,17 +949,17 @@
 		    <version>2.0.0</version>
 		</dependency>
 <!-- 		juh-3.2.1 -->
-		<!-- <dependency>
+		<dependency>
 		    <groupId>org.openoffice</groupId>
 		    <artifactId>juh</artifactId>
-		    <version>3.2.1</version>
-		</dependency> -->
+ 		    <version>3.2.1</version>
+		</dependency>
 <!-- 		jurt-3.2.1 -->
-		<!-- <dependency>
+		<dependency>
 		    <groupId>org.openoffice</groupId>
 		    <artifactId>jurt</artifactId>
 		    <version>3.2.1</version>
-		</dependency> -->
+		</dependency>
 <!-- 		log4j-over-slf4j-1.6.1 -->
 		<dependency>
 		    <groupId>org.slf4j</groupId>
@@ -1295,12 +1286,12 @@
 			<version>${aopalliance.version}</version>
 		</dependency>
 		<!--ant-->
-		<dependency>
-			<groupId>org.apache.ant</groupId>
-			<artifactId>ant</artifactId>
-			<version>${ant.version}</version>
-			<scope>compile</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.ant</groupId> -->
+<!-- 			<artifactId>ant</artifactId> -->
+<!-- 			<version>${ant.version}</version> -->
+<!-- 			<scope>compile</scope> -->
+<!-- 		</dependency> -->
 		<!-- httpclient-->
 		<dependency>
 		  <groupId>commons-httpclient</groupId>
